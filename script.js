@@ -1,4 +1,5 @@
-import * as root from "https://unpkg.com/three@0.161.0/build/three.module.js";
+import * as root from "https://unpkg.com/three@0.161.0/build/three.module.js";'
+console.error("three js imported");
 const scene = new root.Scene();
 const camera = new root.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
 camera.position.z = 5;
